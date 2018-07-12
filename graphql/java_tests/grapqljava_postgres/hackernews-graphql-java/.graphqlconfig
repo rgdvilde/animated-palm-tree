@@ -1,0 +1,12 @@
+{
+  "projects": {
+    "javaproj": {
+      "schemaPath": "schema.graphql",
+      "extensions": {
+        "endpoints": {
+          "local": "http://localhost:8080/?graphql"
+        }
+      }
+    }
+  }
+}
