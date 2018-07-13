@@ -22,7 +22,7 @@ public class DateRepository {
 			String query = "select item.condition from weather.forecast where woeid = 2487889";
 			String fullUrlStr = baseUrl + URLEncoder.encode(query, "UTF-8") + "&format=json";
 			System.out.println(fullUrlStr);
-			System.out.println("1");
+			System.out.println("1");	
 			URL fullUrl = new URL(fullUrlStr);
 			
 			
