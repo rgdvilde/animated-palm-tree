@@ -44,7 +44,7 @@ public class DateRepository {
 			System.out.print(""+tempe);
 			System.out.println("___NEWDAT:" + d.getDay() + " " + d.getMonth() + " " + d.getYear() + " "+ tempe);
 			return new Date(d.getDay(), d.getMonth(), d.getYear(), tempe);
-		} catch (java.io.IOException | org.json.JSONException a) {
+		} catch (java.io.IOException | org.json.JSONExceptiona) {
 			System.out.println("ERROR");
 		}
 		return null;
