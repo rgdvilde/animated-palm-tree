@@ -1,10 +1,12 @@
-# Project Title
-
-One Paragraph of project description goes here
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+graphql\java_tests\grapqljava_postgres geeft een voorbeeld van het gebruik van graphql om databanken van verschillende soorten te linken. Hier wordt een mongodb samen met een postgres databank gebruikt.
+
+graphql\java_tests\grapqljava_mogodb is een outdated versie met enkel mongodb
+
+graphql\java_test\POQ wordt nog aan gewerkt
+
 
 ### Prerequisites
 
@@ -66,7 +68,15 @@ query{
 
 Indien daar al uw links staan werkt mongodb
 
+## Notes
 
+Databank opzetten in POSTgrs
+
+- Download postgres en pgadmin (normaal zit dit er bij)
+- open pgadmin en maak een nieuwe db aan door naar server - postgresql - system en dan create te doen
+- voeg de postgrs toe aan het path, alternatief zet voor alle commands de locatie vd bin
+- inloggen in database: psql -d naamavndb -U uwusernaam (<- default postgres)
+- vanaf hier kunnen standaard sql command gebruikt worden, CREATE TABLE, SELECT, ...
 
 
 
