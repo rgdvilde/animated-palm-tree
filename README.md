@@ -1,10 +1,12 @@
-# Project Title
-
-One Paragraph of project description goes here
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+graphql\java_tests\grapqljava_postgres geeft een voorbeeld van het gebruik van graphql om databanken van verschillende soorten te linken. Hier wordt een mongodb samen met een postgres databank gebruikt.
+
+graphql\java_tests\grapqljava_mogodb is een outdated versie met enkel mongodb
+
+graphql\java_test\POQ wordt nog aan gewerkt
+
 
 ### Prerequisites
 
