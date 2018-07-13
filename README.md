@@ -8,14 +8,16 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
--Installeer Maven
--Installeer MONGOdb
--Installer POSTGRes
-  -ofwel neem als ww 'post' of pas het ww aan in de graphqlendpoint.java file
-  -Maak een database aan genaamd TEST, of pas naam ook aan
-  -Maak een tabel aan genaamd wagen met 2 kolommen nml nummer (int) en naam(string)
-  -populate
--Ga in cmd naar de folder graphql\java_tests\grapqljava_postgres\hackernews-graphql-java en run daar
+- Installeer Maven
+- Installeer MONGOdb
+- Installer POSTGRes
+  - ofwel neem als ww 'post' of pas het ww aan in de graphqlendpoint.java file
+  - Maak een database aan genaamd TEST, of pas naam ook aan
+  - Maak een tabel aan genaamd wagen met 2 kolommen nml nummer (int) en naam(string)
+  - populate
+- Ga in cmd naar de folder graphql\java_tests\grapqljava_postgres\hackernews-graphql-java en run daar
+
+
 
 ```
 mvn jetty:run
