@@ -57,11 +57,11 @@ mutation{
 
 voeg enkele links toe, doe dan 
 ```
-{
-  allLinks(){
+query{
+  allLinks{
     url
-   }
- }
+  }
+}
 ```
 
 Indien daar al uw links staan werkt mongodb
