@@ -1,0 +1,43 @@
+type Date {
+    day: Int!
+    month: Int!
+    year: Int!
+	temperature: Int
+}
+
+type Location{
+	name: String!
+	price: Int
+	nameOwner: String
+	telephoneNumberOwner: String
+	adress: Adress
+	availablity: [Date]
+	distance: Int
+}
+
+type Adress{
+	country: String!
+	city: String!
+	street: String!
+}
+
+
+
+
+type Query {
+  getDates(temp: Int, locationname: String): [Date]
+  getLocations(day: Int, month: Int, year: Int, dis: Int): [Location]
+  getDate(day: Int!, month: Int!, year: Int!): Date
+}
+
+type Mutation {
+  createDate(day: Int!, month: Int!, year: Int!, temp:Int): Date
+  createLocation(name: String!,	price: Int,	nameOwner: String,	telephoneNumberOwner: String,	Adress: String,	Distance: Int): Location
+  rentLocation(locationname: String!, day:Int!, month:Int!, year:Int!): Int
+}
+
+schema {
+  query: Query
+  mutation: Mutation
+}
+

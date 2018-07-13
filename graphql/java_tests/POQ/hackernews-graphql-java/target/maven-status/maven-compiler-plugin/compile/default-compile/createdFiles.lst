@@ -1,0 +1,13 @@
+com\howtographql\hackernews\Mutation.class
+com\howtographql\hackernews\GraphQLEndpoint.class
+com\howtographql\hackernews\JsonReader.class
+com\howtographql\hackernews\LinkRepository.class
+com\howtographql\hackernews\Location.class
+com\howtographql\hackernews\Query.class
+com\howtographql\hackernews\DateRepository.class
+com\howtographql\hackernews\Adress.class
+com\howtographql\hackernews\Date.class
+com\howtographql\hackernews\LocationRepository.class
+com\howtographql\hackernews\CarRepository.class
+com\howtographql\hackernews\Car.class
+com\howtographql\hackernews\Link.class

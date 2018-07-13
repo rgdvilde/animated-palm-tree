@@ -1,4 +1,6 @@
 com\howtographql\hackernews\Mutation.class
+com\howtographql\hackernews\CarRepository.class
+com\howtographql\hackernews\Car.class
 com\howtographql\hackernews\GraphQLEndpoint.class
 com\howtographql\hackernews\LinkRepository.class
 com\howtographql\hackernews\Link.class
