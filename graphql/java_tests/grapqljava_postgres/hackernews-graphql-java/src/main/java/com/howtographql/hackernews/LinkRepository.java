@@ -1,19 +1,13 @@
 package com.howtographql.hackernews;
 
-import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
 
 import org.bson.Document;
-import org.bson.conversions.Bson;
 import org.bson.types.ObjectId;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
-
-import static com.mongodb.client.model.Filters.and;
 import static com.mongodb.client.model.Filters.eq;
-import static com.mongodb.client.model.Filters.regex;
 import com.mongodb.client.model.*;
 
 public class LinkRepository {

@@ -1,19 +1,24 @@
 package com.howtographql.hackernews;
 
-import com.mongodb.MongoClient;
-import com.mongodb.client.MongoDatabase;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-import com.coxautodev.graphql.tools.SchemaParser;
 import javax.servlet.annotation.WebServlet;
-import graphql.servlet.SimpleGraphQLServlet;
+
+import com.coxautodev.graphql.tools.SchemaParser;
+import com.mongodb.MongoClient;
+import com.mongodb.client.MongoDatabase;
+
 import graphql.schema.GraphQLSchema;
+import graphql.servlet.SimpleGraphQLServlet;
 
 @WebServlet(urlPatterns = "/graphql")
 public class GraphQLEndpoint extends SimpleGraphQLServlet {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 7727407048958240998L;
 	private static final LinkRepository linkRepository;
 	private static final CarRepository carRepository;
 
