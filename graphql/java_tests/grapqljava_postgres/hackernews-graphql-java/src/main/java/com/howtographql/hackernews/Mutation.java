@@ -7,7 +7,7 @@ import com.coxautodev.graphql.tools.GraphQLRootResolver;
 public class Mutation implements GraphQLRootResolver {
     
     private final LinkRepository linkRepository;
-    private final CarRepository carRepository;
+	private final CarRepository carRepository;
 
     public Mutation(LinkRepository linkRepository, CarRepository carRepository) {
         this.linkRepository = linkRepository;
